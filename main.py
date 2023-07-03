@@ -1,6 +1,7 @@
-import streamlit as st
-import qrcode
 import io
+
+import qrcode
+import streamlit as st
 
 
 def generate_qr_code(data):
@@ -11,7 +12,7 @@ def generate_qr_code(data):
     return qr_image
 
 
-st.title("QR Code Generator")
+st.title("QR Generator - akshar8460")
 
 # User input
 data_input = st.text_input("Enter the data to encode into the QR code")
