@@ -1,4 +1,4 @@
-# QR Code Generator
+# QR Code Generator  --  [Live Preview](http://3.137.184.103:8501/)
 The QR Code Generator is a simple Python application that allows users to generate QR codes from text input. It is built using the `qrcode` library and hosted on AWS EC2 using Docker. The application provides a web interface where users can enter the data they want to encode into a QR code. Upon generating the QR code, it is displayed on the web page for easy scanning and sharing.
 ## Project Setup
 
@@ -24,7 +24,6 @@ streamlit run qr_code_generator.py
 
 The QR code generator application is currently deployed on `AWS EC2` using `Docker`. You can access the deployed application using the following URL:
 
-[QR Code Generator - Live Preview](http://3.137.184.103:8501/)
 
 ## Usage
 Enter the URL you want to encode into the QR code in the provided input field.
