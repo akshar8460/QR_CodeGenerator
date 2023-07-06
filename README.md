@@ -24,6 +24,7 @@ streamlit run qr_code_generator.py
 
 The QR code generator application is currently deployed on `AWS EC2` using `Docker`. You can access the deployed application using the following URL:
 
+[QR Code Generator - Live Preview](http://3.137.184.103:8501/)
 
 ## Usage
 Enter the URL you want to encode into the QR code in the provided input field.
